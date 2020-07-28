@@ -1,4 +1,4 @@
-class Box {
+class Dus {
     constructor(x,y,width,height){
       var op1={
          isStatic:true
@@ -10,7 +10,7 @@ class Box {
   
     World.add(world,this.body)
     }
-    display(){
+  display(){
   var uio =this.body.position;
   rectMode(CENTER);
   fill("red");
